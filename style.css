@@ -16,7 +16,7 @@ body {
 }
 #sep {
   position: relative;
-  color: #fff;
+  background-color: white;
   border: 2px solid #fff;
   max-width: 50%;
   border-radius: 3px;

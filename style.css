@@ -1,7 +1,7 @@
 @font-face {
   font-family: "comic";
-  src: url('comic-webfont.woff2') format('woff2'),
-      url('comic-webfont.woff') format('woff');
+  src: url("comic-webfont.woff2") format("woff2"),
+    url("comic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,6 +12,14 @@ body {
   animation: gradient 15s ease infinite;
   height: 90vh;
   font-family: "Comic Sans MS", "comic" !important;
+  color: white;
+}
+#sep {
+  position: relative;
+  color: #fff;
+  border: 2px solid #fff;
+  max-width: 50%;
+  border-radius: 3px;
 }
 
 @keyframes gradient {
@@ -26,14 +34,29 @@ body {
   }
 }
 
-#myclock {
-  position: absolute;
+#myclock,
+h1 {
+  position: relative;
   vertical-align: top;
-  width: 88%;
-  height: 50px;
+  width: 96%;
   color: #fff;
   font-size: 40px;
   text-align: center;
   text-shadow: 0 0 30px #8dcaed;
-  padding: 5%;
+  padding: 2%;
+}
+
+.block {
+  background-color: white;
+  color: black;
+  width: 60%;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 30px;
+  padding: 4%;
+  margin: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }

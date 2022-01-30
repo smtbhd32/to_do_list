@@ -22,7 +22,7 @@ function gotTime() {
   if (m < 10) {
     m = "0" + m;
   }
-  var day = months[mo] + " " + d + ", " + y + " ";
+  var day = months[mo] + " " + d + ", " + y + " " + " " + " ";
   document.getElementById("myclock").innerHTML = day + h + ":" + m;
 }
 window.onload = function () {

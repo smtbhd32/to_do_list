@@ -45,8 +45,7 @@ h1 {
   text-shadow: 0 0 30px #8dcaed;
   padding: 2%;
 }
-
-.block {
+.block{
   background-color: white;
   color: black;
   width: 60%;
@@ -59,4 +58,8 @@ h1 {
   margin-left: 10%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
 }

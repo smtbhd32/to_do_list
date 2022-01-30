@@ -24,8 +24,7 @@ body {
 }
 #myclock {
   position: absolute;
-  top: -10px;
-  left: 50%;
+  vertical-align: top;
   width: 100%;
   height: 50px;
   color: #fff;

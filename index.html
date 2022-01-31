@@ -9,20 +9,41 @@
     <title>Sumit Bhardwaj: ToDo List</title>
   </head>
   <body>
-    <div id="myclock"></div>
+    <header id="myclock"></header>
     <hr id="sep">
     <h1>ToDo List: Sumit Bhardwaj</h1>
-    <div class="block">
-      Courses that I want to complete before mid-April:
-      <hr style="background-color: black; position: relative; border: 2px solid black; border-radius: 2px;">
-      <span>
-        <input type="checkbox" id="a1" value="true">
-        <label for="a1"> Web Development Course </label> <br>
-        <input type="checkbox" id="a2" value="true">
-        <label for="a2"> Introduction to AI Course</label> <br>
-        <input type="checkbox" id="a3" value="true">
-        <label for="a3"> Leadership And Team Effectiveness</label> <br>
-      </span>
-    </div>
+    <main class="block">
+      <ul id="dynamic" class="ks-cboxtags">
+        <li>
+          <input type="checkbox" id="a1" value="true">
+          <label for="a1"> Web Development Course </label>
+        </li>
+        <li>
+          <input type="checkbox" id="a2" value="true">
+          <label for="a2"> Introduction to AI Course</label>
+        </li>
+        <li>
+          <input type="checkbox" id="a3" value="true">
+          <label for="a3"> Leadership And Team Effectiveness</label>
+        </li>
+      </ul>
+      <section>
+        <div id = "inpt">
+          <input id="val" type="checkbox">
+          <input id="task" placeholder="Add New Task" type="text" required>
+        </div>
+        <script>
+          const valk = document.getElementById("task");
+          valk.addEventListener("keyup", function (event) {
+            // Number 13 is the "Enter" key on the keyboard
+            if (event.keyCode === 13) {
+              add();
+              display();
+            }
+          });
+        </script><br>
+        <button id = "clr" onclick="localStorage.clear(); document.getElementById('dynamic').innerHTML = '';">Clear All Tasks</button>
+      </section>
+    </main>
   </body>
 </html>

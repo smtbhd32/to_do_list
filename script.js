@@ -32,7 +32,7 @@ if (localStorage.getItem("max") === null) {
 }
 function add() {
   const person = {
-    tasks: document.getElementById("task").value,
+    tasks: false,
     vals: document.getElementById("val").checked,
   };
   document.getElementById("task").value = "";

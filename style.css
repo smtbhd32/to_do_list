@@ -1,3 +1,8 @@
+#bs1:hover {
+  background-color: #e73c7e;
+  border-radius: 20px;
+  cursor: pointer;
+}
 @font-face {
   font-family: "comic";
   src: url("comic-webfont.woff2") format("woff2"),

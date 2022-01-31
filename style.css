@@ -89,7 +89,6 @@ ul{
 }
 #inpt {
   width: 20%;
-  color: white;
   border: 0px;
   border-bottom: 5px solid white;
   background-color: transparent;
@@ -97,9 +96,19 @@ ul{
   margin: 10px;
   margin-right: 25%;
   margin-left: 25%;
+  font-size: 20px;
   padding-left: 15%;
   padding-right: 15%;
+}
+input[type="text"] {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  border: 0px;
+  text-align: center !important;
   font-size: 20px;
+  color: white;
 }
 li {
   position: relative;
@@ -116,13 +125,7 @@ li {
 input[type="checkbox"] {
   accent-color: green;
 }
-input[type="text"] {
-  background-color: transparent;
-  border: 0px;
-  border-bottom: 2px bold white!important;
-  font-size: 20px;
-  color: white;
-}
+
 textarea:focus, input:focus{
   outline: none;
 }

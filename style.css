@@ -9,9 +9,9 @@
 
 body {
   background: linear-gradient(-45deg, #ee7752, #23a6d5, #e73c7e, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 500% 500%;
   animation: gradient 20s ease infinite;
-  height: 90vh;
+  height: 100vh;
   font-family: "Comic Sans MS", "comic" !important;
   color: white;
 }
@@ -28,7 +28,7 @@ body {
     background-position: 35% 50%;
   }
   50% {
-    background-position: 65% 50%;
+    background-position: 60% 50%;
   }
   100% {
     background-position: 35% 50%;
@@ -48,7 +48,7 @@ h1 {
   margin: 1%;
 }
 
-input[type=checkbox]:checked + label {
+input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
 
@@ -57,9 +57,8 @@ input[type=checkbox]:checked + label {
   color: white;
   border-radius: 100px;
   border-color: red;
-  
 }
-ul{
+ul {
   position: relative;
   width: 60%;
   text-align: center;
@@ -127,29 +126,34 @@ input[type="checkbox"] {
   accent-color: green;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
   font-family: "Comic Sans MS", "comic" !important;
   font-style: italic;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: white;
   font-family: "Comic Sans MS", "comic" !important;
   font-style: italic;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: white;
   font-family: "Comic Sans MS", "comic" !important;
   font-style: italic;
 }
 
 #block {
+  position: bottom;
   background-color: white;
   color: black;
   width: 60%;

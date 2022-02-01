@@ -1,4 +1,4 @@
-# todo
+# vision
 
 Project Vision is made on the theme of the to-do list, consisting single-page dynamic website which uses local storage for its data storage.
 

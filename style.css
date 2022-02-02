@@ -105,7 +105,7 @@ label:hover {
   border: 0px;
   border-radius: 50px;
   background-color: white;
-  color: black;
+  color: rgb(97, 61, 100);
   padding: 10px;
   margin: 10px;
   margin-right: 23%;
@@ -117,7 +117,7 @@ input[type="text"] {
   width: 98%;
   background-color: transparent;
   border: 0px;
-  color: black;
+  color: rgb(97, 61, 100);
   text-align: center !important;
   font-size: 20px;
   animation: slidein-right 3s linear infinite;
@@ -166,7 +166,7 @@ input:focus::placeholder, textarea:focus::placeholder
 }
 ::placeholder{
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
+  color: rgb(97, 61, 100);
   font-family: "Comic Sans MS", "comic" !important;
   font-style: italic;
   opacity: 1; /* Firefox */

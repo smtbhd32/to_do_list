@@ -1,4 +1,4 @@
-#bs1:hover {
+#bs1:hover, #bs1 {
   background-color: #e73c7e;
   border-radius: 20px;
   cursor: pointer;

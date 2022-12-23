@@ -7,7 +7,7 @@ You may be wondering why I named this project "Vision". So, what do you mean by 
 
 And that's what we do while we add tasks to our ToDo List,i.e. we plan our future with imagination.
 
-Features of Project Vision:
+#### Features of Project Vision:
 
 Works on live gradient background :) Dynamic to-do-list :) Can add new entries :) Can delete old entries :) Remembers old entries and their status :) Uses local storage for storing user data :) Option for resetting to-do-list :) Uses local storage for storing user data :) Have a live clock :)
 
@@ -25,7 +25,7 @@ Now, comes the showing of tasks to the user...
 
 For that, I used a display() function which loops over all the unique ids and parse the JSON data stored with those ids, then updating that data on webpage using getElementById() method of Document object... Ignoring the NULL ones...
 
-# Functions that this to-do-list supports:
+# Functions supported:
 #### Adding new task
 For adding new tasks, I have used add() function, where I get the details of task from user... Then I store the details in dictionary with task title and task status... Then I stringify the dictionary using JSON's stringify function, assign the unique id to stringified data and store the data in local storage... And we're done with adding of new tasks :)
 #### Updating the status of task

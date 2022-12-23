@@ -1,5 +1,5 @@
 # Vision
-#### Video Demo:  <URL https://www.youtube.com/watch?v=EwYbQBVhi3M>
+#### Video Demo:  https://www.youtube.com/watch?v=EwYbQBVhi3M
 #### Description:
 Project Vision is made on the theme of the to-do list, consisting single-page dynamic website which uses local storage for its data storage.
 

@@ -11,7 +11,7 @@ Features of Project Vision:
 
 Works on live gradient background :) Dynamic to-do-list :) Can add new entries :) Can delete old entries :) Remembers old entries and their status :) Uses local storage for storing user data :) Option for resetting to-do-list :) Uses local storage for storing user data :) Have a live clock :)
 
-# Technologies Used: local storage and JSON
+#### Technologies Used: local storage and JSON
 While working on this project, I was thinking of making it without using backend... I wanted a standalone website without backend server that runs on client-side... So, I started thinking of ways to do that... As I am planning of making a to-do-list, I have to store the user data somewhere... That means I need some client-storage... After lots of googling, I got to learn about local storage...
 
 What is localStorage used for?
@@ -25,11 +25,11 @@ Now, comes the showing of tasks to the user...
 
 For that, I used a display() function which loops over all the unique ids and parse the JSON data stored with those ids, then updating that data on webpage using getElementById() method of Document object... Ignoring the NULL ones...
 
-#### Functions that this to-do-list supports:
-# Adding new task
+# Functions that this to-do-list supports:
+#### Adding new task
 For adding new tasks, I have used add() function, where I get the details of task from user... Then I store the details in dictionary with task title and task status... Then I stringify the dictionary using JSON's stringify function, assign the unique id to stringified data and store the data in local storage... And we're done with adding of new tasks :)
-# Updating the status of task
+#### Updating the status of task
 For updating the status of tasks, I have used check() function which get the unique id of that task and update it's data stored in local storage.
-# Deleting the old tasks
+#### Deleting the old tasks
 For deleting old tasks, I have used del() function which gets the unique id of that task and clears data of that task from local storage.
 
